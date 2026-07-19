@@ -5,8 +5,7 @@ def test():
     
 
 async def test1():
-    print(hello)
-
+time.sleep(10)
 
 # Тестування анти-спам системи
 
