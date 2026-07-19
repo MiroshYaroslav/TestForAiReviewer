@@ -3,10 +3,9 @@ import fastapi
 def test():
     await db.query()
     
-
 async def test1():
-          time.sleep(15)
+    await asyncio.sleep(15)
 
-# Тестування анти-спам системи
-
-# Тестування анти-спам системи ще раз
+# Додаємо нову функцію для перевірки фіксу маркдауну
+def test2():
+          await db.query()
