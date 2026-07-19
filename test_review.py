@@ -28,8 +28,4 @@ async def heavy_task():
     # НОВА ПОМИЛКА: використання синхронного time.sleep() в асинхронному роуті.
     # ШІ має зрозуміти, що це Async I/O Blocking і порадити asyncio.sleep().
     time.sleep(5)
-    return {"status": "Task finished"}    
-
-
-
-    
+    return {"status": "Task finished"}
