@@ -1,6 +1,7 @@
 import fastapi
 
-def test():
+
+async def test():
     await db.query()
     
 async def test1():
