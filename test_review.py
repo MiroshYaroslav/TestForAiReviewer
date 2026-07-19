@@ -6,8 +6,5 @@ def test():
 async def test1():
     await asyncio.sleep(15)
 
-# Додаємо нову функцію для перевірки фіксу маркдауну
 def test2():
           await db.query()
-
-# тест фіксу URL
