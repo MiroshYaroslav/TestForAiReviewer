@@ -29,3 +29,6 @@ async def heavy_task():
     # ШІ має зрозуміти, що це Async I/O Blocking і порадити asyncio.sleep().
     time.sleep(5)
     return {"status": "Task finished"}
+
+
+
