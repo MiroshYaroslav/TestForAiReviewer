@@ -6,4 +6,6 @@ def test():
 
 async def test1():
     print(hello)
-    
+
+
+# Тестування анти-спам системи
