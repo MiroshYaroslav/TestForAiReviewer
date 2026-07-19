@@ -7,5 +7,6 @@ async def test():
 async def test1():
     await asyncio.sleep(15)
 
-def test2():
+
+async def test2():
           await db.query()
