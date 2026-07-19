@@ -6,7 +6,8 @@ async def test():
     
 
 async def test1():
-          time.sleep(15)
+async def test1():
+    await asyncio.sleep(15)
 
 # Тестування анти-спам системи
 
