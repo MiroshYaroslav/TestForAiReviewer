@@ -1,9 +1,6 @@
-
-
-
-
-
-
+def AnotherCamelCaseFunc():
+    print("test")
+    await db.execute("SELECT 1")
 
 def BadNameFunc():
     print("test")
