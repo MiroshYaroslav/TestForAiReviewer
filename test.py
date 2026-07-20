@@ -5,7 +5,7 @@
 
 
 
-def BadNameFunc():
+def bad_name_func():
     print("test")
 
 
