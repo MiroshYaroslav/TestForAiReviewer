@@ -3,7 +3,7 @@ import sys
 
 
 
-def myTestFunc():
+def my_test_func():
     print("hello")
 
 
