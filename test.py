@@ -10,8 +10,3 @@ def myTestFunc():
 def process_data():
     
     await db.execute("SELECT 1")
-
-# тест анти-спаму
-
-
-
