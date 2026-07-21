@@ -5,7 +5,7 @@ import os
 
 
 
-def FetchUserData():
+async def fetch_user_data():
     user_id = 42
     print("Fetching data...")
     
